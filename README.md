@@ -6,26 +6,25 @@ Este repositório contém testes automatizados end-to-end (E2E) utilizando **Cyp
 
 ## Estrutura do Projeto
 
+```markdown
 cypress/
-└── e2e/
-├── login/
-│ ├── login.cy.js
-│ └── loginhtml.html
-│
-├── homepage/
-│ ├── homepage.cy.js
-│ └── homepagehtml.html
-│
-└── support/
-├── commands.js
-└── e2e.js
+ └── e2e/
+      ├── login/
+      │     ├── login.cy.js
+      │     └── loginhtml.html
+      │
+      ├── homepage/
+      │     ├── homepage.cy.js
+      │     └── homepagehtml.html
+      │
+      └── support/
+            ├── commands.js
+            └── e2e.js
 
 cypress.config.js
 package.json
 README.md
 
-
----
 
 # Testes Implementados
 
